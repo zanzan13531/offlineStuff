@@ -6,16 +6,18 @@
     </head>
     <body>
         <p>bon</p>
+        <input type="file" name ="romName" id = "romName">
         <div style="width:640px;height:480px;max-width:100%">
             <div id="game"></div>
           </div>
     <script type="text/javascript">
         EJS_player = '#game';
-        EJS_gameUrl = "./offlineStuffBigFiles/soulsilverRom.nds"; 
+        EJS_gameUrl = "romName"; 
         //replace the "soulsilverRom.nds" part with the file name of whatever you want to play
         EJS_core = 'nds';
     </script>
     <script src="./loader.js"></script>
+    <script src = "./other.js"></script>
     
     </body>
 </html>
